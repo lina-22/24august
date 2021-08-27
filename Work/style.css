@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+    background-color: black;
+}
+
+.container{
+    background: green;
+}
+
+header section{
+    background: url(img/Patched_heart.jpeg);
+    display: flex;
+    height: 100px;
+    padding: 10px;
+    position: relative;
+    background: yellow;
+
+}
+
+header section h1{
+    text-align: center;
+    width: 100%;
+}
