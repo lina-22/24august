@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: sans-serif;
     width: 100%;
     background-color: black;
 }
 
-.container{
+.container {
     background: green;
 }
 
-header section{
+header section {
     background: url(img/Patched_heart.jpeg);
     display: flex;
     height: 100px;
@@ -24,11 +24,11 @@ header section{
 
 }
 
-header section h1{
+header section h1 {
     text-align: center;
     width: 100%;
 }
 
-.nav section{
+.nav section {
     display: flex;
-} 
+}
