@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(87, 116, 29);
+    font-size: 25px;
+}
+
+.lo {
+    height: 70px;
+    background-color: yellowgreen;
+    text-align: end;
+    line-height: 50px;
+}
+
+.na {}

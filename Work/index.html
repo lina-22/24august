@@ -5,7 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>August work</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <style>
+       nav ul{
+           display: flex;
+           justify-content: space-around;
+           text-decoration: none;
+           list-style: none;
+       } 
+
+       .box{
+           height: 100%;
+           display: flex;
+           display: grid;
+           background-color: blanchedalmond;
+           font-size: 2em;
+           align-items: center;
+           justify-content: center;
+           grid-template-columns: repeat(autofit);
+       }
+
+       .box >div:nth-child(1n) {
+           background-color: brown;
+       }
+
+
+       .box >div:nth-child(1n) {
+           background-color: rgb(42, 157, 165);
+       }
+
+
+       .box >div:nth-child(1n) {
+           background-color: rgb(128, 165, 42);
+       }
+    </style>
+ </head>
 <body>
     <div class="container">
         <header>
@@ -13,14 +46,20 @@
              <img src="img/Patched_heart.jpeg" alt="">
              <h1> Heart Shoked</h1>
             </section>
-            <nav>
+            <nav class="nav section">
               <ul>
                   <li>Love</li>
                   <li>Life</li>
                   <li>Laugh</li>
               </ul>
             </nav>
-
+        <div class="box">
+        <div class="banner">1</div>
+        <div class="slide bar">2</div>
+        <div class="body arear">3</div> 
+        </div> 
+        <footer class="end">1 2 3</footer>  
+        
         </header>
     </div>
     

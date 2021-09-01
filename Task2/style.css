@@ -1,0 +1,51 @@
+/* sumith basic css code copy*/
+
+html,
+body {
+  background-color: #ffeead;
+  margin: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #23943f;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #06d6a0;
+}
+
+.container > div:nth-child(2n) {
+  background-color: #118ab2;
+}
+
+.container > div:nth-child(3n) {
+  background-color: #ef476f;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #ffb866;
+}
+
+.container > div:nth-child(5n) {
+  background-color: #d6ff66;
+}
+
+.container > div:nth-child(6n) {
+  background-color: #bbb39e;
+}
+
+.container > div:nth-child(7n) {
+  background-color: #e7a60d;
+}
+
+.container > div:nth-child(8n) {
+  background-color: #47350b;
+}
+
+/*"end of sumith copy of css"*/

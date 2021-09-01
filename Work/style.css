@@ -28,3 +28,7 @@ header section h1{
     text-align: center;
     width: 100%;
 }
+
+.nav section{
+    display: flex;
+} 
